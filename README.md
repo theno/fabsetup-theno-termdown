@@ -2,7 +2,7 @@
 
 Install or update termdown.
 
-This is a fabsetup addon.
+This is a [fabsetup](https://github.com/theno/fabsetup) addon.
 
 ## Usage
 
