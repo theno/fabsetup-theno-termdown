@@ -42,6 +42,8 @@ fab -d theno.termdown
 
 ## Development
 
+https://github.com/theno/fabsetup/blob/master/howtos/fabsetup-addon.md
+
 ```bash
 # save changes
 git commit -am 'I describe my changes'
