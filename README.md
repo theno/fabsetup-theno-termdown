@@ -1,7 +1,8 @@
 # fabsetup-theno-termdown
 
 With this [fabsetup](https://github.com/theno/fabsetup) addon
-you can install or update [termdown](https://github.com/trehn/termdown).
+you can install or update [termdown](https://github.com/trehn/termdown),
+a _"[c]ountdown timer and stopwatch in your terminal"_.
 
 It installs termdown via `pip install --user termdown`.
 Also, it installs a bash-wrapper script at `~/bin/termdown` which
