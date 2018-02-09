@@ -17,33 +17,17 @@ fabsetup theno.termdown
 ## Installation
 
 As a [pypi package](https://pypi.python.org/pypi/fabsetup-theno-termdown)
-with command pip (recommended way):
+with command `pip` (recommended way):
 
 ```bash
 pip install  fabsetup-theno-termdown
 ```
 
-Or clone the [github repository](https://github.com/theno/fabsetup-theno-termdown):
-
-```bash
-mkdir -p ~/.fabsetup-addon-repos
-git clone https://github.com/theno/fabsetup-theno-termdown.git  ~/.fabsetup-addon-repos/fabsetup-theno-termdown
-
-# now, fabsetup loads the addon
-fabsetup -d theno.termdown
-
-# you can also run the task directly
-cd ~/.fabsetup-addon-repos/fabsetup-theno-termdown
-fab -d theno.termdown
-
-# or from a checked out fabsetup repo
-cd ~/.fabsetup
-fab -d theno.termdown
-```
-
 ## Development
 
 https://github.com/theno/fabsetup/blob/master/howtos/fabsetup-addon.md
+
+Devel commands:
 
 ```bash
 # save changes
@@ -59,4 +43,30 @@ fab -f fabfile-dev.py  pypi
 
 # clean up
 fab -f fabfile-dev.py  clean
+```
+
+Clone the [github repository](https://github.com/theno/fabsetup-theno-termdown):
+
+```bash
+mkdir -p ~/.fabsetup-addon-repos
+git clone https://github.com/theno/fabsetup-theno-termdown.git  ~/.fabsetup-addon-repos/fabsetup-theno-termdown
+
+# install fabsetup if not done already
+pip install fabsetup
+
+# fabsetup now finds the addon bcause it is located at ~/.fabsetup-addon-repos
+fabsetup -d theno.termdown
+```
+
+More ways to run the task:
+
+```bash
+# you also can run the task directly
+cd ~/.fabsetup-addon-repos/fabsetup-theno-termdown
+fab -d theno.termdown
+
+# or from a cloned fabsetup repository
+git clone https://github.com/theno/fabsetup.git ~/.fabsetup
+cd ~/.fabsetup
+fab -d theno.termdown
 ```
