@@ -1,8 +1,16 @@
 # fabsetup-theno-termdown
 
-Install or update termdown.
+With this [fabsetup](https://github.com/theno/fabsetup) addon
+you can install or update [termdown](https://github.com/trehn/termdown).
 
-This is a [fabsetup](https://github.com/theno/fabsetup) addon.
+It installs termdown via `pip install --user termdown`.
+Also, it installs a bash-wrapper script at `~/bin/termdown` which
+is convenient to time
+[pomodoro sessions](https://en.wikipedia.org/wiki/Pomodoro_Technique):
+
+```bash
+termdown 25m
+```
 
 ## Usage
 
