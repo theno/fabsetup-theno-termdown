@@ -16,13 +16,14 @@ fabsetup theno.termdown
 
 ## Installation
 
-As a pypi package with command pip (recommended way):
+As a [pypi package](https://pypi.python.org/pypi/fabsetup-theno-termdown)
+with command pip (recommended way):
 
 ```bash
 pip install  fabsetup-theno-termdown
 ```
 
-Or as a git repository checkout:
+Or clone the [github repository](https://github.com/theno/fabsetup-theno-termdown):
 
 ```bash
 mkdir -p ~/.fabsetup-addon-repos
