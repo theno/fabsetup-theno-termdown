@@ -7,7 +7,8 @@ a _"[c]ountdown timer and stopwatch in your terminal"_.
 It installs termdown via `pip install --user termdown`.
 Also, it installs a bash-wrapper script at `~/bin/termdown` which
 is convenient to time
-[pomodoro sessions](https://en.wikipedia.org/wiki/Pomodoro_Technique):
+[pomodoro sessions](https://en.wikipedia.org/wiki/Pomodoro_Technique)
+and pops up a notification when the timer finishes:
 
 ```bash
 termdown 25m
