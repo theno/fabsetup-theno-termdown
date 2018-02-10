@@ -53,7 +53,7 @@ git commit -am 'I describe my changes'
 # upload to github
 git push origin master
 
-# update version number in fabsetup_theno_termdown
+# update version number in fabsetup_theno_termdown/_version.py
 
 # create and publish package at pypi
 fab -f fabfile-dev.py  pypi
