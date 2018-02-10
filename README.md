@@ -1,5 +1,7 @@
 # fabsetup-theno-termdown
 
+Install or update termdown.
+
 With this [fabsetup](https://github.com/theno/fabsetup) addon
 you can install or update [termdown](https://github.com/trehn/termdown),
 a _"[c]ountdown timer and stopwatch in your terminal"_.
@@ -13,6 +15,11 @@ and pops up a notification when the timer finishes:
 ```bash
 termdown 25m
 ```
+
+Touched files, dirs, and installed packages:
+
+        ~/bin/termdown
+        pip-package termdown (`--user` install)
 
 ## Usage
 
@@ -79,4 +86,8 @@ fab -d theno.termdown
 git clone https://github.com/theno/fabsetup.git ~/.fabsetup
 cd ~/.fabsetup
 fab -d theno.termdown
+
+# run directly, fabsetup from cloned repo
+cd ~/.fabsetup-addon-repos/fabsetup-theno-termdown
+PYTHONPATH=~/.fabsetup fab -d theno.termdown
 ```

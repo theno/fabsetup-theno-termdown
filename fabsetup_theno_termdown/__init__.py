@@ -29,11 +29,17 @@ def show_termdown_usage():
 def termdown():
     '''Install or update termdown.
 
-    Command `termdown 25m` is practical to time pomodoro sessions.
+    Termdown (https://github.com/trehn/termdown) is a
+    "[c]ountdown timer and stopwatch in your terminal".
 
-    Touched files and dirs:
+    It installs termdown via `pip install --user termdown`.  Also, it installs a
+    bash-wrapper script at `~/bin/termdown` which is convenient to time pomodoro
+    sessions and pops up a notification when the timer finishes.
+
+    Touched files, dirs, and installed packages:
 
         ~/bin/termdown
+        pip-package termdown (`--user` install)
     '''
     install_pip_package()
     install_command()
